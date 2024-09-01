@@ -1,4 +1,4 @@
-export default function Banner() {
+export default function HeroBanner() {
   return (
     <div className="flex gap-8 max-w-[1600px] max-h-[441px]">
       <div className="w-[772px] h-auto shrink">

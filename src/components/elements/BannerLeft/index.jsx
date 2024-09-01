@@ -1,4 +1,4 @@
-export default function Slider() {
+export default function BannerLeft() {
   return (
     <div className="relative max-w-4/5 max-h-[738px] shrink">
       <img
