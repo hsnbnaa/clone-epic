@@ -20,7 +20,7 @@ export default function Slider() {
           </p>
         </div>
         <div className="flex flex-col">
-          <p className="mb-[10px] text-sm font-normal">IDR 699,999</p>
+          <p className="mb-[11px] text-sm font-normal">IDR 699,999</p>
           <div className="flex items-center gap-4">
             <a
               href="#"
