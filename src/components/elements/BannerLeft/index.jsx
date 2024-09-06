@@ -1,10 +1,10 @@
 export default function BannerLeft() {
   return (
-    <div className="relative max-w-4/5 max-h-[738px] shrink">
+    <div className="relative max-[1312px] max-h-[738px] shrink">
       <img
         src="https://cdn2.unrealengine.com/egs-black-myth-wukong-carousel-desktop-1920x1080-11f4d19845b5.jpg?h=720&quality=medium&resize=1&w=1280"
         alt=""
-        className="rounded-2xl"
+        className="rounded-2xl w-[1312px] h-auto"
       />
       <div className="absolute left-[56px] bottom-[56px] max-w-[40%] max-[1124px]:max-w-[60%] max-[1124px]:left-8 max-[1124px]:bottom-8">
         <img
