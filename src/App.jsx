@@ -5,6 +5,7 @@ import feather from "feather-icons";
 import Banner from "./components/fragments/Banner";
 import Discover from "./components/fragments/Discover";
 import Spotlight from "./components/fragments/Spotlight";
+import axios from "axios";
 
 function App() {
   useEffect(() => {
