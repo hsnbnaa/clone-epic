@@ -4,40 +4,40 @@ import DiscoverHeader from "../../elements/DiscoverHeader";
 const content = [
   {
     img_url:
-      "https://cdn1.epicgames.com/spt-assets/ca9ef1bcf2f54043baac351366aec677/black-myth-wukong-jjjfw.png?h=480&quality=medium&resize=1&w=360",
-    title: "Black Myth: Wukong",
-    price: "IDR 699,999",
+      "https://cdn1.epicgames.com/offer/236c74b4cd2e4e3099cbe2ebdc9686fd/EGS_DeadIsland2GoldEdition_DeepSilverDambusterStudios_Editions_S2_1200x1600-ab4fadf2fc20e08358d080c4fca3c029_1200x1600-ab4fadf2fc20e08358d080c4fca3c029?h=480&quality=medium&resize=1&w=360",
+    title: "Dead Island 2 Gold Edition",
+    price: "IDR 855,000",
   },
   {
     img_url:
-      "https://cdn1.epicgames.com/spt-assets/8deae61b9cf54e23bb15cd78b02f3ef7/gori-cuddly-carnage-134sw.jpg?h=480&quality=medium&resize=1&w=360",
-    title: "Gori Cuddly Carnage",
-    price: "IDR 137,999",
+      "https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/EN_Bungie_TheFinalShapeAnnualPass_S4_1200x1600_1200x1600-e420b82e1a29decd1da4463d4f4ddd1f?h=480&quality=medium&resize=1&w=360",
+    title: "Destiny 2: The Final Shape + Annual Pass",
+    price: "IDR 1,150,000",
   },
   {
     img_url:
-      "https://cdn1.epicgames.com/spt-assets/342f6833f1574e19ba6bb8337edbc522/death-noodle-delivery-1rfxa.png?h=480&quality=medium&resize=1&w=360",
-    title: "Death Noodle Delivery",
-    price: "IDR 34,999",
+      "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077UltimateEdition_CDPROJEKTRED_Editions_S2_1200x1600-81442c61fd09b45ecd03add7c0c3afdd?h=480&quality=medium&resize=1&w=360",
+    title: "Cyberpunk 2077: Ultimate Edition",
+    price: "IDR 933,999",
   },
   {
     img_url:
-      "https://cdn1.epicgames.com/offer/42c70202dc684966a827bfcb7b49ac5f/EGS_MonsterJamShowdown_MilestoneSrl_S2_1200x1600-a819ba968f7f76350b1fa9bc1ee97f28?h=480&quality=medium&resize=1&w=360",
-    title: "Monster Jam™ Showdown",
-    price: "IDR 699,999",
+      "https://cdn1.epicgames.com/spt-assets/57015e643399448f8139291daa15bfc2/f1-manager-2024-15uhb.jpg?h=480&quality=medium&resize=1&w=360",
+    title: "F1® Manager 2024",
+    price: "IDR 364,999",
   },
   {
     img_url:
-      "https://cdn1.epicgames.com/offer/333cce509c6b413c852e5177f19f8e84/EGS_EASPORTSMaddenNFL25_Tiburon_S2_1200x1600-289740792de6bbf7eefe8c40301b4077?h=480&quality=medium&resize=1&w=360",
-    title: "EA SPORTS™ Madden NFL 25",
-    price: "IDR 799,000",
+      "https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2DeluxeEdition_RemedyEntertainment_Editions_S2_1200x1600-db032e8c839da2be59801023a4cdf083?h=480&quality=medium&resize=1&w=360",
+    title: "Alan Wake 2 Deluxe Edition",
+    price: "IDR 798,700",
   },
 
   {
     img_url:
-      "https://cdn1.epicgames.com/spt-assets/94717ce5197c45919cce272f7e23c1f1/deathbound-1x2oq.jpg?h=480&quality=medium&resize=1&w=360",
-    title: "Deathbound",
-    price: "IDR 299,999",
+      "https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait Store Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=480&quality=medium&resize=1&w=360",
+    title: "Grand Theft Auto V: Premium Edition",
+    price: "IDR 300,750",
   },
 ];
 

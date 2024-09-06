@@ -6,6 +6,7 @@ import Banner from "./components/fragments/Banner";
 import Discover from "./components/fragments/Discover";
 import Spotlight from "./components/fragments/Spotlight";
 import axios from "axios";
+import Deals from "./components/fragments/Deals";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
         <Banner />
         <Discover />
         <Spotlight />
+        <Deals />
       </main>
     </>
   );
