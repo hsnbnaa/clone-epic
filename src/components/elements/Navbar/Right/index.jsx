@@ -1,7 +1,7 @@
 export default function Right() {
   return (
     <nav className="flex gap-4 items-center text-base">
-      <i data-feather="globe"></i>
+      <i data-feather="globe" className="w[19px] h-[19px]"></i>
       <a
         href="#"
         className="px-3 py-1 bg-[#FFFFFF26] rounded-md hover:bg-[#FFFFFF40] transition-colors duration-300 ease-in-out"
