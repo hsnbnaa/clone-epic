@@ -9,6 +9,7 @@ import axios from "axios";
 import Deals from "./components/fragments/Deals";
 import Free from "./components/fragments/Free";
 import HeaderHero from "./components/fragments/HeaderHero";
+import PlayFree from "./components/fragments/PlayFree";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Spotlight />
         <Deals />
         <Free />
+        <PlayFree />
       </main>
     </>
   );

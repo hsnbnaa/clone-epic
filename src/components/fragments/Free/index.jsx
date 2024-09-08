@@ -2,7 +2,7 @@ import FreeContent from "../../elements/FreeContent";
 
 export default function Free() {
   return (
-    <section className="flex flex-col bg-[#202024] rounded-xl py-[30px] px-10 w-full">
+    <section className="flex flex-col bg-[#202024] rounded-xl py-[30px] px-10 w-full mb-16">
       <div className="flex justify-between mb-[25px]">
         <h5 className="flex gap-[14px] items-center text-xl font-bold">
           <span>

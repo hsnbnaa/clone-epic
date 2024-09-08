@@ -6,7 +6,7 @@ export default function Search() {
         type="text"
         id="search"
         placeholder="Search store"
-        className="w-44 border-none outline-none bg-transparent text-white placeholder:text-white text-sm"
+        className="w-44 border-none outline-none bg-transparent text-white placeholder:text-[#ffffff9c] text-sm"
       />
     </div>
   );
