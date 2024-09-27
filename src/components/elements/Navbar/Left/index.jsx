@@ -3,7 +3,7 @@ export default function Left() {
     <div className="flex text-base gap-8 items-center">
       <div className="flex gap-[2px] items-center">
         <img
-          src="public/images/epic-icon.png"
+          src="/images/epic-icon.png"
           alt="Epic Logo"
           className="w-[26px] h-[26px]"
         />

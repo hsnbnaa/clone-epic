@@ -11,8 +11,8 @@ export default function PlayCard() {
             <h5 className="font-interTight font-bold text-xl">Fortnite</h5>
           </a>
         </div>
-        <div>
-          <span className="text-sm font-normal h-[46px]">
+        <div className="h-[46px]">
+          <span className="text-sm font-normal">
             These claws will be the last thing you see. Meowtooth is now
             available in the Shop.
           </span>
