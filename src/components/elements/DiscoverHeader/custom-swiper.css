@@ -1,0 +1,11 @@
+.swiper-button-prev {
+  top: 22px !important; /* Atur posisi vertikal tombol */
+  left: -80px !important; /* Jarak tombol prev dari kiri */
+  color: white !important;
+}
+
+.swiper-button-next {
+  top: 22px !important; /* Atur posisi vertikal tombol */
+  right: 0 !important; /* Jarak tombol next dari kanan */
+  color: white !important;
+}

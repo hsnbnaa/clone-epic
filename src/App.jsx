@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="flex flex-col mx-[18%] mb-[1.5%] max-w-[1600px]">
+      <main className="flex flex-col max-[1920px]:mx-[12.5%] mx-[18%] mb-[1.5%] max-w-[1600px]">
         <HeaderHero />
         <Hero />
         <Banner />

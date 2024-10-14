@@ -1,5 +1,9 @@
 import DiscoverContent from "../../elements/DiscoverContent";
 import DiscoverHeader from "../../elements/DiscoverHeader";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, A11y } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 const content = [
   {
@@ -45,16 +49,38 @@ export default function Spotlight() {
   return (
     <section className="flex flex-col mb-16">
       <DiscoverHeader title="End of Summer Sale Spotlight" />
-      <div className="flex gap-5">
+      <Swiper
+        modules={[Navigation, A11y]}
+        className="flex flex-row max-w-[1600px] max-[1920px]:max-w-[1440px] max-2xl:max-w-[1152px]"
+        slidesPerView={6}
+        spaceBetween={20}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
         {content.map((content, index) => (
-          <DiscoverContent
+          <SwiperSlide
+            className="max-w-[250px] max-2xl:max-w-[214px] flex flex-col gap-[10px]"
             key={index}
-            img_url={content.img_url}
-            title={content.title}
-            price={content.price}
-          />
+          >
+            <img
+              src={content.img_url}
+              alt=""
+              className="w-auto h-[333px] max-[1920px]:h-[297.77px] max-2xl:w-[214px] max-2xl:h-[285.84px] rounded-lg"
+            />
+            <div className="flex flex-col">
+              <span className="text-[#FFFFFFA6] text-xs font-normal">
+                Base Game
+              </span>
+              <span className="text-base font-bold text-white my-[5px]">
+                {content.title}
+              </span>
+              <span className="mt-[10px] text-sm font-normal text-white">
+                {content.price}
+              </span>
+            </div>
+          </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
     </section>
   );
 }
